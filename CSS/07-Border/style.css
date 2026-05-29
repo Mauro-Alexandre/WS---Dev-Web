@@ -1,0 +1,23 @@
+p
+{
+    padding: 5px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+p
+{
+    border-width: 10px 5px 2px 20px;
+    border-color: green yellow blue black;
+    border-radius: 10px 20px 20px 5px;
+    border-style: ridge;
+}
+
+p
+{
+    /* espresura cor estilo de borda */
+    border: 3px navy solid;
+    border-radius: 10px;
+}

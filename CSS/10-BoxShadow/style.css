@@ -1,0 +1,14 @@
+p
+{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+}
+
+p
+{
+    /*Descolamento horizontal, descolamento vertical, desfoque, cor*/
+    box-shadow: 10px 10px 10px black;
+}
+
