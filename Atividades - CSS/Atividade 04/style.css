@@ -6,4 +6,9 @@ h1
 h2
 {
     color: #001230;
-}0
+}
+
+h3
+{
+    color: rgb(red, green, blue);
+}

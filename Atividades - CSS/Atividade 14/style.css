@@ -1,0 +1,10 @@
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgba(0, 0, 255, 0.712);
+    text-decoration: underline;
+}
