@@ -1,0 +1,48 @@
+body
+{
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 40px 10px;
+}
+
+h1
+{
+    color: brown;
+    margin-bottom: 10pxx;
+    text-align: center;
+}
+
+h2
+{
+    color: brown;
+}
+
+form
+{
+    background-color: #c9c4c4;
+    width: 400px;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5b5b5b;
+}
+
+label
+{
+    display: block;
+    margin-top: 8px;
+}
+
+input, select, textarea
+{
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px sloid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label
+{
+    display: inline-block;
+}
+
