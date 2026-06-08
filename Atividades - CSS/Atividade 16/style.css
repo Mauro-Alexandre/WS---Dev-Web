@@ -1,0 +1,25 @@
+.card
+{
+    background-color: rgb(219, 219, 219);
+}
+
+.card h1
+{
+    color: navy;
+    text-align: center;
+}
+
+.card h2
+{
+    color: navy;
+}
+
+.projeto1
+{
+    border: 2px navy solid;
+}
+
+.descricao1
+{
+    
+}
