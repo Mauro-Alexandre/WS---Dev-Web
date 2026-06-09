@@ -1,0 +1,36 @@
+body
+{
+    background-color: rgb(240, 240, 240);
+}
+
+h1
+{
+    color: rgb(255, 44, 44);
+    text-align: center;
+}
+form
+{
+    background-color: rgb(153, 153, 153);
+    padding: 30px;
+    margin: auto;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px rgb(46, 46, 46);
+    border-radius: 10px;
+}
+
+button
+{
+    display: block;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgb(41, 41, 41);
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background-color: green;
+    color: rgb(1, 228, 1);
+}
