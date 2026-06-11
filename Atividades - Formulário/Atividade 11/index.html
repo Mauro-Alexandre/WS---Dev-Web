@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body></body>
+    <form action="./">
+        <h1>Cadastro de Produto</h1>
+
+        <label for="nome">Nome do produto:</label>
+        <br>
+        <input type="text" name="nome" id="nome" title="Digite o nome do produto" required>
+
+        <br><br>
+
+        <label for="preco">Preço:</label>
+        <br>
+        <input type="number" name="preco" id="preco" title="Digite o preço do produto" required >
+
+        <br><br>
+
+        <label for="estoque">Quantidade em estoque:</label>
+        <br>
+        <input type="number" name="estoque" id="estoque" title="Coloque a quantidade em estoque" required min="1">
+
+        <br><br>
+
+        <label for="categora">Categoria do produto:</label>
+        
+        <select name="categoria" id="categoria" title="Escolha a categoria do produto" required>
+            <option value="consumivel">Consumível</option>
+            <option value="lazer">Lazer</option>
+            <option value="quimico">Químico</option>
+        </select>
+
+        <br><br>
+
+        <label for="cor">Cor do produto:</label>
+        <br>
+        <input type="color" name="cor" id="cor" title="Escolha a cor do produto" required>
+
+        <br><br>
+
+        <label for="imagem">Imagem do produto:</label>
+        
+        <input type="file" name="imagem" id="imagem" title="Coloque a imagem do produto" required>
+
+        <br><br>
+
+        <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

@@ -19,7 +19,7 @@ form
     box-sizing: border-box;
     padding: 15px;
     margin: auto;
-    width: 300px;
+    width: 400px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgb(34, 34, 34, 0.5);
 }
@@ -35,4 +35,16 @@ button:hover
 {
     background-color: rgb(1, 131, 1);
     color:rgb(1, 182, 1);
+}
+
+form label
+{
+    font-size: 17px;
+}
+
+form input
+{
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(49, 49, 49, 0.5);
 }

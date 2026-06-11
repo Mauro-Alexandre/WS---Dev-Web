@@ -1,0 +1,40 @@
+body
+{
+    background-color: #cfd3a9;
+    font-family: Arial, sans-serif;
+}
+
+form
+{
+    background-color: #a2b395;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(73, 73, 73);
+    width: 400px;
+    margin: 10% auto;
+    box-sizing: border-box;
+    border: rgb(56, 56, 56) 5px solid;
+}
+
+form label
+{
+    font-size: 17px;
+}
+
+form input
+{
+   border: none;
+}
+
+button
+{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+button:hover
+{
+    background-color: rgb(2, 129, 2);
+    color: rgb(0, 204, 0);
+}
