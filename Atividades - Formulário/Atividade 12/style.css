@@ -20,10 +20,19 @@ header
     font-family: sans-serif;
     top: 0;
     width: 100%;
-    height: 50px;;
+    height: 50px;
     position: fixed;
-    border: rgb(77, 77, 248) solid 2px;
+    border-bottom: rgb(77, 77, 248) solid 2px;
     box-shadow: 0px 10px 6px rgb(29, 29, 29);
+}
+
+.logo
+{
+    height: 40px;
+    padding: 1px;
+    position: fixed;
+    top: 5px;
+    margin-left: 1800px;
 }
 
 nav li
@@ -36,7 +45,6 @@ nav li
 
 form
 {
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-shadow: 10px 10px 10px rgb(43, 43, 43);
     background-color: rgb(219, 207, 207);
@@ -44,6 +52,45 @@ form
     border-radius: 10px;
     padding: 15px;
     width: 450px;
-    margin: 10% auto;
-    
+    margin: 4.4% auto;
+}
+
+form input
+{
+    border-radius: 10px;
+    border: 1px solid rgb(19, 18, 18);
+}
+
+.informacoes #nome, #email, #telefone
+{
+    width: 360px;
+    padding: 6px;
+}
+
+.duvida
+{
+    font-weight: bold;
+}
+.duvida #duvida
+{
+    width: 100%;
+    height: 100px;
+    padding: 1px;
+    box-shadow: 4px 4px 4px rgb(43, 43, 43);
+}
+
+button
+{
+    background-color: rgb(35, 35, 199);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+button:hover
+{
+    background-color: rgb(134, 134, 241);
 }
