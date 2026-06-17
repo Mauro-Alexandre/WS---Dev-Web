@@ -110,17 +110,19 @@ button:hover
 footer
 {
     text-align: center;
-    padding: 38px;
+    padding: 29px;
     background-color: rgb(35, 35, 88);
     color: white;
     font-family: sans-serif;
     width: 100vw;
     height: 10px;
    position: absolute;
-   top: 877px;
+   top: 895px;
 }
 
-
+.rodape p
 {
-    width: 100px;
+    position: absolute;
+    left: 40%;
+    top: 23px;
 }
