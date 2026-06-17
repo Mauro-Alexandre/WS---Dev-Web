@@ -7,18 +7,36 @@
 </head>
 <body>
     <h1>Tabalas Semânticas</h1>
-    <table>
+
+    <table border="1">
         <caption>
             Título tabela
         </caption>
 
         <thead>
             <tr>
-                <th>Título1</th>
-                <th>Título2</th>
-                <th>Título3</th>
+                <th scope="col">Título1</th>
+                <th scope="col">Título2</th>
+                <th scope="col">Título3</th>
             </tr>
         </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="2">Subtítulo</th>
+                <th>Dado1</th>
+                <th>Dado2</th>
+            </tr>
+
+            <tr>
+                <th>Dado1</th>
+                <th>Dado2</th>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <th scope="row" colspan="3">Rodapé</th>
+        </tfoot>
     </table>
 </body>
 </html>
