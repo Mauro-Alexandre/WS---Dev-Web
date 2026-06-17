@@ -136,6 +136,13 @@ nav li
     height: 500px;
 }
 
+.apresentacao3 p
+{
+    position: absolute;
+    top: 190px;
+    left: 230px;
+}
+
 footer
 {
     text-align: center;
