@@ -54,3 +54,106 @@ nav li
     margin: 20px;
     font-size: 25px;
 }
+
+.apresentacao h1
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.apresentacao
+{
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    width: 1000px;
+    font-size: 25px;
+    padding: 100px 30px;
+    height: 1000px;
+}
+
+.logo2
+{
+    position: absolute;
+    bottom: 340px;
+    padding: 100px;
+    height: 600px;
+    margin-left: 1000px;
+}
+
+.apresentacao2
+{
+    position: absolute;
+    top: 700px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    width: 99.2vw;
+    font-size: 23px;
+    padding: 100px;
+    height: 1000px;
+}
+
+.apresentacao2 p 
+{
+    position: absolute;
+    right: 150px;
+    top: 190px;
+    margin-left: 990px;
+}
+
+.apresentacao2 h2
+{
+    position: absolute;
+    right: 1110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.escola
+{
+    position: absolute;
+    top: 65px;
+    padding: 140px;
+    height: 760px;
+    right: 1000px;
+}
+
+.apresentacao3 h2
+{
+    text-align: center;
+}
+
+.apresentacao3
+{
+    position: absolute;
+    top: 1550px;
+    background-color:rgb(77, 77, 248);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    width: 99.2vw;
+    font-size: 23px;
+    padding:  70px 15px;
+    height: 500px;
+}
+
+.apresentacao3 p
+{
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 190px;
+    left: 210px;
+}
+
+footer
+{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(35, 35, 88);
+    color: white;
+    font-family: sans-serif;
+    width: 99.2vw;
+    height: 10px;
+   position: absolute;
+   top: 2000px;
+}
