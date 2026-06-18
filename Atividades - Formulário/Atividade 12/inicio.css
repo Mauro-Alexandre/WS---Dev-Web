@@ -68,13 +68,11 @@ nav li
 {
     position: absolute;
     bottom: 200px;
-    left: 40px;
+    left: 120px;
     font-size: 80px;
-    color: black;
-    border: solid black 5px;
-    border-radius: 20px;
-    background-color: white;
-    font-family: sans-serif;
+    color: white;
+    background-color: rgba(94, 43, 236, 0.932);
+    font-family: 'Anton';
 }
 
 .placa
