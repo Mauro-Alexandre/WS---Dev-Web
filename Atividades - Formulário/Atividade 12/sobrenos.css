@@ -8,6 +8,7 @@
 body
 {
     background-color: rgb(58, 70, 235);
+    background: linear-gradient(45deg, #000a54 , rgb(58, 70, 235) );
     z-index: 2;
 }
 
@@ -104,6 +105,10 @@ nav li
 
 .apresentacao2 h2
 {
+    background-color: rgb(60, 60, 206);
+    color: white;
+    padding: 14px 6px;
+    border-radius: 10px;
     position: absolute;
     right: 1110px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -127,7 +132,7 @@ nav li
 {
     position: absolute;
     top: 1550px;
-    background-color:rgb(77, 77, 248);
+    background-color:rgb(60, 60, 206);
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     width: 99.2vw;

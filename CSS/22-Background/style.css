@@ -1,11 +1,27 @@
-.bg
+.banner
 {
-   width:100vw;
-   height: 100vh;
-    background-color: coral;
-    background-image: url(./22-Background.jpg);
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    background-attachment: scroll;
-    background-position: right;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, #000a54 0%, #950bbd 20%, #d04051 100%);
+}
+
+.secao
+{
+    height: 300px;
+    padding: 50px;
+    color: black;
+    background-image: url(.//22-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card
+{
+    padding: 100px;
+    color:black;
+    text-align: center;
+    background: radial-gradient(circle, #000a54 0%, #950bbd 20%, #d04051 100%);
 }
