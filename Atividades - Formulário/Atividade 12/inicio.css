@@ -68,10 +68,12 @@ nav li
 {
     position: absolute;
     bottom: 200px;
-    left: 120px;
+    left: 80px;
+    border-radius: 20px;
     font-size: 80px;
     color: white;
-    background-color: rgba(94, 43, 236, 0.932);
+    padding: 10px 30px;
+    background-color: rgb(58, 40, 156);
     font-family: 'Anton';
 }
 
