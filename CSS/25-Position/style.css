@@ -5,51 +5,63 @@
     box-sizing: border-box;
 }
 
-.elemento
+body
 {
-    color: white;
-    font-size: 30px;
-    width: 250px;
-    height: 250px;
-    text-align: center;
+    height: 1500px;
+    background-color: lightgray;
 }
 
-.estatico
+.static
 {
-    background-color: navy;
     position: static;
-}
-
-.relativo
-{
     background-color: coral;
-    position: relative;
-    left: 100px;
-    top: 50px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
 }
 
-.absoluto
+.container
 {
-    background-color: brown;
-    position: absolute;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: navy;
+    text-align: center;
+    color: white;
+}
+
+.relative
+{
+    position: relative;
+    background-color: lightseagreen;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 200px;
     top: 0;
-    left: 300px;
+    left: 0;
 }
 
-.relativo-pai
+.absolute
 {
-    background-color: crimson;
-    position: relative;
-    width: 400px;
-    height: 400px;
-}
-
-.absoluto-filho
-{
-    background-color: pink;
     position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 150px;
-    top: 50px;
+    background-color: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+.fixed
+{
+    position: fixed;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
 }

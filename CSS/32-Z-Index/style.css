@@ -1,0 +1,51 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: lightgray;
+}
+
+.caixa1
+{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    top: 30px;
+    left: 30px;
+}
+
+.caixa2
+{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    top: 60px;
+    left: 60px;
+}
+
+.caixa3
+{
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    top: 90px;
+    left: 90px;
+}
