@@ -18,24 +18,26 @@
 {
     position: absolute;
     width: 150px;
-    height: 140px;
+    height: 150px;
     background-color: crimson;
     color: white;
     text-align: center;
-    top: 30px;
-    left: 30px;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
 }
 
 .caixa2
 {
     position: absolute;
     width: 150px;
-    height: 140px;
+    height: 150px;
     background-color: coral;
     color: white;
     text-align: center;
     top: 60px;
     left: 60px;
+    z-index: 3;
 }
 
 .caixa3
@@ -48,4 +50,5 @@
     text-align: center;
     top: 90px;
     left: 90px;
+    z-index: 1;
 }

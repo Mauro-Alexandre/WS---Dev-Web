@@ -7,9 +7,10 @@
 
 body
 {
-    background-color: rgb(58, 70, 235);
-    z-index: 2;
+    z-index: 3;
     width: 99.2vw;
+    background-image: url(./SRC/image/Atividade\ 12\ -\ escola\ 2\ blur.png);
+    background-repeat: no-repeat;
 }
 
 a
@@ -58,7 +59,6 @@ nav li
 
 .inicio
 {
-    background-image: url(./SRC/image/Atividade\ 12\ -\ escola\ 2\ blur.png);
     height: 1000px;
     background-repeat: no-repeat;
     bottom: 100px;
@@ -95,3 +95,81 @@ nav li
     left: 1200px;
 }
 
+.meio
+{
+    background-color: rgb(58, 70, 235);
+    background: linear-gradient(45deg, #000a54 , rgb(58, 70, 235) );
+    height: 1000px;
+    z-index: 2;
+}
+
+.meio h1
+{
+    color: white;
+    padding: 30px 20px;
+    
+    font-family: sans-serif;
+    font-size: 40px;
+    background-color: #010e6e;
+}
+
+.bloco1
+{
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 255);
+    left: 10%;
+    top: 1140px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: 5px solid rgb(19, 18, 18);
+    box-shadow: 5px 5px 10px rgb(15, 15, 15);
+}
+
+.bloco2
+{
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 255);
+    left: 41%;
+    top: 1140px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: 5px solid rgb(19, 18, 18);
+    box-shadow: 5px 5px 10px rgb(15, 15, 15);
+}
+
+.bloco3
+{
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 255);
+    left:  72%;
+    top: 1140px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    border: 5px solid rgb(19, 18, 18);
+    box-shadow: 5px 5px 10px rgb(15, 15, 15);
+}
+
+footer
+{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(35, 35, 88);
+    color: white;
+    font-family: sans-serif;
+    width: 99.2vw;
+    height: 10px;
+   position: absolute;
+   top: 2000px;
+}
