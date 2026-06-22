@@ -7,7 +7,7 @@
 
 body
 {
-    z-index: 3;
+    z-index: 2;
     width: 99.2vw;
     background-image: url(./SRC/image/Atividade\ 12\ -\ escola\ 2\ blur.png);
     background-repeat: no-repeat;
@@ -99,15 +99,13 @@ nav li
 {
     background-color: rgb(58, 70, 235);
     background: linear-gradient(45deg, #000a54 , rgb(58, 70, 235) );
-    height: 1000px;
-    z-index: 2;
+    height: 500px;
 }
 
 .meio h1
 {
     color: white;
     padding: 30px 20px;
-    
     font-family: sans-serif;
     font-size: 40px;
     background-color: #010e6e;
@@ -121,9 +119,9 @@ nav li
     height: 200px;
     box-sizing: border-box;
     background-color: rgb(222, 222, 255);
-    left: 10%;
-    top: 1140px;
-    border-radius: 10px;
+    left: 15%;
+    top: 1180px;
+    border-radius: 30px;
     font-family: sans-serif;
     border: 5px solid rgb(19, 18, 18);
     box-shadow: 5px 5px 10px rgb(15, 15, 15);
@@ -137,9 +135,9 @@ nav li
     height: 200px;
     box-sizing: border-box;
     background-color: rgb(222, 222, 255);
-    left: 41%;
-    top: 1140px;
-    border-radius: 10px;
+    left: 42%;
+    top: 1180px;
+    border-radius: 30px;
     font-family: sans-serif;
     border: 5px solid rgb(19, 18, 18);
     box-shadow: 5px 5px 10px rgb(15, 15, 15);
@@ -153,12 +151,61 @@ nav li
     height: 200px;
     box-sizing: border-box;
     background-color: rgb(222, 222, 255);
-    left:  72%;
-    top: 1140px;
-    border-radius: 10px;
+    left:  69%;
+    top: 1180px;
+    border-radius: 30px;
     font-family: sans-serif;
     border: 5px solid rgb(19, 18, 18);
     box-shadow: 5px 5px 10px rgb(15, 15, 15);
+}
+
+.fim
+{
+    background-color: rgb(44, 55, 207);
+    height: 600px;
+}
+.fim h1
+{
+    background-color: rgb(35, 35, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+.fim p
+{
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 1000px;
+    text-align: center;
+    left: 23%;
+}
+
+.fim a
+{
+    position: absolute;
+    background-color: rgb(230, 35, 35);
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    padding: 15px;
+    top: 1970px;
+    left: 40.6%;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px rgb(20, 20, 20);
+}
+
+.fim a:hover
+{
+    background-color: rgb(156, 32, 32);
+    color: rgb(255, 255, 255);
+    cursor:;
 }
 
 footer
@@ -171,5 +218,5 @@ footer
     width: 99.2vw;
     height: 10px;
    position: absolute;
-   top: 2000px;
+   top: 2100px;
 }
