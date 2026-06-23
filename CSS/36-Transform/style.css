@@ -4,3 +4,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bloco
+{
+    margin: 10px auto;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.bloco p
+{
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.caixa
+{
+    background-color: crimson;
+    color: white;
+    border: 2px solid #eeeeee;
+    border-radius: 6px;
+    width: 120px;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    transition: 2s;
+}
+
+.botao
+{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.translate:hover
+{
+    transform: translate(-100px);
+}
+
+.scale:hover
+{
+    transform: scale(1.4);
+}
+
+.rotate:hover
+{
+    transform: rotate(100deg);
+}
+
+.skew:hover
+{
+    transform: skew(15deg);
+}
+
+.hover
+{
+    transition: 2s;
+}
+
+.hover:hover
+{
+    transform: scale(1.4);
+}
+
+.botao:hover
+{
+    transform: scale(1.4);
+}

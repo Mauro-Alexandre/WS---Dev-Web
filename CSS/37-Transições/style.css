@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco
+{
+    margin: 10px auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.bloco p
+{
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.bloco h2
+{
+    margin-bottom: 10px;
+}
+
+button
+{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.b-transition
+{
+    transition: 2s;
+}
+
+.b-transition:hover
+{
+    transform: scale(1.6);
+}
+
+.b-property
+{
+    width: 100px;
+    transition-property: width;
+    transition: 2s;
+}
+
+.b-property:hover
+{
+    width: 400px;
+    background-color: navy;
+}
+
+.b-duration
+{
+    transition-duration: 2s;
+}
+
+.b-duration:hover
+{
+    transform: scale(1.6);
+}
+
+.b-delay
+{
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.b-delay:hover
+{
+    transform: translate(15px);
+}
+
+.b-timing
+{
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+.b-timing:hover
+{
+    transform: translate(100px)
+}
+
+.card-animado
+{
+    transition: transform 2s, box-shadow 3s;
+}
+
+.card-animado:hover
+{
+    transform: scale(1.2);
+    box-shadow: 5px 10px 16px #333;
+}
