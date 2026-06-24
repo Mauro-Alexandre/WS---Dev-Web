@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    text-align: center
+}
+
+.row
+{
+    flex-direction: row;
+}
+
+.row-reverse
+{
+    flex-direction: row-reverse;
+}
+
+.column
+{
+    flex-direction: column;
+}
+
+.column-reverse
+{
+    flex-direction: column-reverse;
+}
