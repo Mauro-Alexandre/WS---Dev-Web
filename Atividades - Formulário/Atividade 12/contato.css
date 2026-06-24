@@ -11,13 +11,13 @@ body
     z-index: 2;
 }
 
-a
+header a
 {
     text-decoration: none;
     color: white;
 }
 
-a:hover
+header a:hover
 {
     color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.219);
@@ -71,7 +71,63 @@ nav li
     box-shadow: 5px 5px 5px rgb(36, 36, 36);
 }
 
+.contato h1
+{
+    background-color: rgb(35, 35, 88);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
 
+.contato a
+{
+    color: black;
+    position: absolute;
+    left: 21%;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contato a:hover
+{
+    background-color: rgb(52, 52, 199);
+    color: white;
+    padding: 4px 4px;
+    border-radius: 10px;
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+.instagram
+{
+    width: 40px;
+
+}
+
+.facebook
+{
+    width: 40px;
+}
+
+.youtube
+{
+    width: 40px;
+}
+
+.tiktok
+{
+    width: 40px;
+}
+
+.contato p
+{
+    font-size: 30px;
+    width: 700px;
+    font-family: sans-serif;
+}
 
 footer
 {
