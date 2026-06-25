@@ -1,0 +1,49 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    width: 250px;
+    height: 120px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    width: 90px;
+    height: 30px;
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nowrap
+{
+    /*flex-direction: row;
+    flex-wrap: nowrap;*/
+    flex-flow: row nowrap;
+}
+
+.row-wrap
+{
+    flex-flow: row wrap;
+}
+
+.column-nowrap
+{
+    flex-flow: column nowrap;
+}
+
+.column-wrap
+{
+    flex-flow: column wrap;
+}

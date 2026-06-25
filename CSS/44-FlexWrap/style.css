@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+    color: #fff;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nowrap
+{
+    flex-wrap: nowrap;
+}
+
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse
+{
+    flex-wrap: wrap-reverse;
+}
