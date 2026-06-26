@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/*    grow shrink basis*/
+/*padrão: 0  1    auto*/
+/*Elemento não cresce, pode encolher e inicia com base no conteúdo*/
+.flex-1 .item
+{
+    flex: 1;
+}
+
+.flex .item
+{
+    flex: 1 1 auto;
+}
+
+.flex-fixo .item
+{
+    flex: 0 0 200px;
+}
+
+.flex-completo .item
+{
+    flex: 1 1 250px;
+}

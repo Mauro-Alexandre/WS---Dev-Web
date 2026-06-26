@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.basis-auto .item
+{
+    flex-basis: auto;
+}
+
+.basis-px .item
+{
+    flex-basis: 200px;
+}
+
+.basis-porcentagem .item
+{
+    flex-basis: 50%;
+}

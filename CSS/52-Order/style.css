@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.item1
+{
+    order: 2;
+}
+
+.item2
+{
+    order: 1;
+}
+
+.item3
+{
+    order: 3;
+}
+
+.destaque
+{
+    order: -1;
+    background-color: crimson;
+}
