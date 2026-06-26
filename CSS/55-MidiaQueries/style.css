@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    flex: 1;
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.aviso
+{
+    flex: 1;
+    background-color: crimson;
+    color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/*Qualquer tela com 700px ou menos vai pegar esse estilo*/
+@media (max-width: 700px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+
+    .item
+    {
+        background-color: green;
+    }
+
+    .aviso
+    {
+        background-color: chocolate;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 420px)
+{
+    .item
+    {
+        background-color: pink;
+    }
+
+    .aviso
+    {
+        background-color: brown;
+        font-size: 8px;
+    }
+}

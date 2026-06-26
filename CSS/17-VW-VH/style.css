@@ -1,20 +1,39 @@
-body
+*
 {
-    background-color: black;
-    width: 500px;
-    height: 500px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.elemento1
+.largura-total
 {
-    background-color: red;
-    width: 100%;
-    height: 100%;
-}
-
-.elemento2
-{
+    width: 100vh;
     background-color: coral;
-    width: 100vw;
+    color: white;
+    padding: 20px;
+   
+}
+
+.largura-metade
+{
+    width: 50vh;
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+
+.altura-total
+{
     height: 100vh;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+}
+
+.altura-metade
+{
+    height: 50vh;
+    background-color: green;
+    color: white;
+    padding: 20px;
 }
