@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    display: flex;
+    max-width: 400px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+
+.item
+{
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 60px;
+}
+
+.grow-0
+{
+    flex-grow: 0;
+}
+
+.grow-1 .item
+{
+    flex-grow: 1;
+}
+
+.grow-2 .destaque
+{
+    flex-grow: 2;
+}
