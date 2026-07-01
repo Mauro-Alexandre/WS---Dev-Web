@@ -1,0 +1,18 @@
+body
+{
+    background-color: rgb(187, 59, 59);
+}
+
+h1
+{
+    color: white;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p
+{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
