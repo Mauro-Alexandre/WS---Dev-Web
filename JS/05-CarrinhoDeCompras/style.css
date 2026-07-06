@@ -292,7 +292,8 @@ main
     font-weight: 600;
 }
 
-dialog {
+dialog 
+{
     border: none;
     border-radius: 14px;
     padding: 20px;
@@ -300,14 +301,16 @@ dialog {
     max-width: 420px;
     margin: auto;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
-  }
+}
    
-  dialog::backdrop {
+dialog::backdrop 
+{
     background: rgba(0, 0, 0, 0.4);
-  }
-   
-  .modal-actions {
+}
+  
+.modal-actions 
+{
     display: flex;
     gap: 10px;
-    justify-content: flex-end;
-  }
+     justify-content: flex-end;
+}
